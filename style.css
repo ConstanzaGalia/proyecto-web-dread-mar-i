@@ -1,0 +1,30 @@
+
+/*FALTA ELEGIR TIPOGRAFÍA*/
+
+
+#logo{
+    height: 60px;
+    width: 65px;
+}
+
+.botonalto{
+    height: 40px;
+}
+
+.colorheader{
+    background: black; 
+}
+
+.colorbtnvm{
+    background-color: #961227; 
+}
+
+.fixedscroll{
+    bottom: 20px;
+    right:20px;
+    z-index: 9999;
+}
+
+.fixedscroll:hover{
+    transform: scale(1.2) translateZ(0) perspective(1px);
+}
