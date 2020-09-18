@@ -28,3 +28,7 @@
 .fixedscroll:hover{
     transform: scale(1.2) translateZ(0) perspective(1px);
 }
+
+#recitales{
+    background-color: black;
+}
