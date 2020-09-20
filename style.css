@@ -68,15 +68,12 @@ body {
     overflow: hidden;
 }
 
-.imgdread{
-    width: 300px;
-    height: 300px;
-}
+
 
 .logo {
-    position: relative;
+    position: absolute;
     top: 20%;
-    left: 10%;
+    left: 20%;
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
@@ -110,19 +107,38 @@ body {
     margin: 20px 0;
     width: 98%;
 }
+
+
 #team h2 {
     background-color: white;
     color: teal;
 }
 
+.teamimg{
+    border: 5px solid #af0b26e3;
+    width: 180px;
+    height: 180px;
+}
+
+.redesteam{
+    color: teal;
+    font-size: 30px;
+    text-align: center;
+    padding: 8px;
+}
+
+.redesteam:hover{
+    color: #af0b26e3;
+}
+
 
 #contacto {
     color: rgb(241, 247, 241);
-    background-image: url(/img/DreadMarI&GuerrerosDelRey.jpg);
+    background-image: url(/img/responsive.media.jpg);
     background-size: cover;
     background-attachment: fixed;
     z-index: -1;
-    height: 700px;
+    min-height: 700px;
 }
 
 .titulo{
@@ -134,7 +150,7 @@ body {
 /*CSS SECCION FOOTER*/
 
 footer{
-    height: 90px;
+    min-height: 90px;
     background: #202020;
     font-size: 15px;
 }
@@ -157,4 +173,11 @@ footer{
 
 .termycond:hover{
     color: whitesmoke;
+}
+
+
+@media(min-width: 768px){
+    #contacto{
+        background-image: url(/img/DreadMarI&GuerrerosDelRey.jpg);
+    }
 }
