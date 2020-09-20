@@ -1,20 +1,16 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 
-body,
-p,
-h3 {
+body, p, h3 {
     margin: 0;
 }
 
-body,
-html {
+body, html {
     height: 100%;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
 }
-
 
 
 #logo{
@@ -79,8 +75,8 @@ body {
 
 .logo {
     position: relative;
-    top: 30%;
-    left: 50%;
+    top: 20%;
+    left: 10%;
     transform: translate(-50%, -50%);
     color: white;
     text-align: center;
@@ -135,8 +131,30 @@ body {
     background: rgba(153, 152, 152, 0.479);
 }
 
+/*CSS SECCION FOOTER*/
 
 footer{
-    height: 300px;
-    background: black;
+    height: 90px;
+    background: #202020;
+    font-size: 15px;
+}
+
+
+.socialicon{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+}
+
+.socialicon:hover{
+    color:#28a745;
+}
+
+.termycond{
+    color:#28a745;
+}
+
+.termycond:hover{
+    color: whitesmoke;
 }
