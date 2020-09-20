@@ -57,7 +57,22 @@ body {
 }
 
 
-/*CSS SECCIONES TEAM Y CONTACTO*/
+/*-------------------------------------CSS SECCIONES PORTFOLIO---------------------------------------------------*/
+
+
+#portfolio{
+    background-image: url(/img/seccion-discos.jpg);
+    background-size: cover;
+    min-height: 800px;
+}
+
+.spotify{
+    color:#28a745;
+    font-size: 50px;
+}
+
+
+/*-------------------------------------CSS SECCIONES TEAM Y CONTACTO---------------------------------------------------*/
 
 #container {
     position: relative;
@@ -145,6 +160,10 @@ body {
     margin-top: 8rem;
     padding: 20px;
     background: rgba(153, 152, 152, 0.479);
+}
+
+textarea{
+    min-height: 200px;
 }
 
 /*CSS SECCION FOOTER*/
