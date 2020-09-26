@@ -17,6 +17,13 @@ body {
 }
 
 
+.iframeDesktop{
+    top: 50px;
+    right: 20px;
+    z-index: 9999;
+}
+
+
 #logo{
     height: 60px;
     width: 65px;
@@ -203,4 +210,21 @@ footer{
     #contacto{
         background-image: url(/img/DreadMarI&GuerrerosDelRey.jpg);
     }
+
+}
+
+@media (max-width: 768px){
+    #portfolio h3{
+        color: white;
+        font-size: 50px;
+    }
+}
+
+@media (max-width: 576px){
+    #portfolio h3{
+        color: white;
+        font-size: 30px;
+        text-align: center;
+    }
+
 }
