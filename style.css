@@ -228,3 +228,34 @@ footer{
     }
 
 }
+
+/* -------------------  CSS PAGINA RECITALES  --------------------*/
+
+#paginaRecitales {
+    background-image: url(/img/conciertosBG.jpg);
+    background-size:cover;
+    padding-bottom: 150px;
+}
+
+.jumboEstilo{
+    background: rgb(46,87,92);
+    background: linear-gradient(0deg, rgba(46,87,92,0.9391106784510679) 20%, rgba(0,1,3,1) 85%);
+    color: white;
+    opacity: 95%;
+}
+
+#tablaConciertos {
+    background-color: rgb(158, 158, 158);
+    opacity: 80%;
+    -webkit-box-shadow: 16px 9px 13px 5px rgba(46,88,92,0.59);
+    -moz-box-shadow: 16px 9px 13px 5px rgba(46,88,92,0.59);
+    box-shadow: 16px 9px 13px 5px rgba(46,88,92,0.59);
+}
+
+#tablaConciertos a{
+    color:black;
+}
+
+#tablaConciertos a:hover{
+    color: #28a745;
+}
