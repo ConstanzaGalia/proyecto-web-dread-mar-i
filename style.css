@@ -112,6 +112,7 @@ body {
     border-radius: 100px;
 }
 
+
 #text a {
     padding: 15px 30px;
     display: inline-block;
@@ -211,12 +212,27 @@ footer{
         background-image: url(/img/DreadMarI&GuerrerosDelRey.jpg);
     }
 
+    
+
 }
 
 @media (max-width: 768px){
     #portfolio h3{
         color: white;
         font-size: 50px;
+    }
+
+    .logo {
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        color: white;
+        text-align: center;
+    }
+
+    .logo img {
+        width: 80px;
+        height: 80px;
     }
 }
 
@@ -245,8 +261,7 @@ footer{
 }
 
 #tablaConciertos {
-    background-color: rgb(158, 158, 158);
-    opacity: 80%;
+    background-color: rgb(158, 158, 158, 0.87);
     -webkit-box-shadow: 16px 9px 13px 5px rgba(46,88,92,0.59);
     -moz-box-shadow: 16px 9px 13px 5px rgba(46,88,92,0.59);
     box-shadow: 16px 9px 13px 5px rgba(46,88,92,0.59);
@@ -271,3 +286,4 @@ footer{
 #tablaConciertos a:hover{
     color: #28a745;
 }
+
