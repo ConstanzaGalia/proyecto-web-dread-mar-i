@@ -72,7 +72,7 @@ body {
 
 
 #portfolio{
-    background-image: url(/img/seccion-discos.jpg);
+    background-image: url(img/seccion-discos.jpg);
     background-size: cover;
     min-height: 800px;
 }
@@ -161,7 +161,7 @@ body {
 
 #contacto {
     color: rgb(241, 247, 241);
-    background-image: url(/img/responsive.media.jpg);
+    background-image: url(img/responsive.media.jpg);
     background-size: cover;
     background-attachment: fixed;
     z-index: -1;
@@ -209,7 +209,7 @@ footer{
 
 @media(min-width: 768px){
     #contacto{
-        background-image: url(/img/DreadMarI&GuerrerosDelRey.jpg);
+        background-image: url(img/DreadMarI&GuerrerosDelRey.jpg);
     }
 
     
@@ -248,7 +248,7 @@ footer{
 /* -------------------  CSS PAGINA RECITALES  --------------------*/
 
 #paginaRecitales {
-    background-image: url(/img/conciertosBG.jpg);
+    background-image: url(img/conciertosBG.jpg);
     background-size:cover;
     padding-bottom: 150px;
 }
