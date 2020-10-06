@@ -139,6 +139,13 @@ body {
 #team h2 {
     background-color: white;
     color: teal;
+    font-family: 'Anton', sans-serif;
+}
+
+
+#team h3, h4{
+    font-family: 'Pattaya', sans-serif;
+    font-size: 2rem;
 }
 
 .teamimg{
@@ -156,7 +163,10 @@ body {
 
 .redesteam:hover{
     color: #af0b26e3;
+    text-decoration: none;
 }
+
+
 
 
 #contacto {
